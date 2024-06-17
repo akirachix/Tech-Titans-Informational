@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(250, 253, 255);
+}
+h1{
+    color: rgb(16, 33, 41);
+}
+/* p{
+    color: rgb(16, 33, 41);
+} */
+.contactus{
+    /* background-color: #F3E43FB2; */
+    display: flex;
+    gap: 180px;
+
+    /* grid-template-columns: auto auto auto auto; */
+    width: 100px;
+    height: 100px;
+    margin-left: 25%;
+    background-color: rgb(16, 33, 41);
+
+}
+.contacts{
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+    gap: 200px;
+    margin-left: 100px;
+    margin-left: 9%;
+
+}
+.map {
+    width: 650px;
+    height: 650px;
+    border-radius: 20px;
+}
+.details{
+    margin-top: 13%;
+    font-size: xx-large;
+}
+#icon{
+    width: 100px;
+    height: 100px;
+}
+.footer{
+    margin-top: 5%;
+    background-color: rgb(16, 33, 41);
+    border-radius: 7px;
+    /* height: 90%; */
+    display: grid;
+}
+.footer p{
+    color: antiquewhite;
+    margin-top: 30px;
+}
+figcaption{
+    color: aliceblue;
+}
+@media screen and (max-width:480px){
+    body{
+        background-color: rgb(250, 253, 255);
+    }
+    h1{
+        color: rgb(16, 33, 41);
+    }
+    .contactus{
+        /* background-color: #F3E43FB2; */
+        /* display: flex; */
+        /* gap: 180px; */
+        display: grid;
+        /* grid-template-columns: auto auto auto auto; */
+        width: 100px;
+        height: 100px;
+        /* margin-left: 25%; */
+        background-color: rgb(16, 33, 41);
+    
+    }
+    .contacts{
+        font-size: x-small;
+        /* text-align: center; */
+        display: grid;
+        /* gap: 200px; */
+        /* margin-left: 100px; */
+        /* margin-left: 9%; */
+    
+    }
+    .map {
+        width: 650px;
+        height: 650px;
+        border-radius: 20px;
+    }
+    .details{
+        /* margin-top: 13%; */
+        font-size: xx-small;
+        display: grid;
+    }
+    #icon{
+        width: 100px;
+        height: 100px;
+    }
+    .footer{
+        /* margin-top: 5%; */
+        background-color: rgb(16, 33, 41);
+        border-radius: 7px;
+        /* height: 90%; */
+        margin-right: 70%;
+        display: grid;
+    }
+    .footer p{
+        color: antiquewhite;
+        margin-top: 30px;
+    }
+    figcaption{
+        color: aliceblue;
+    }
+}
