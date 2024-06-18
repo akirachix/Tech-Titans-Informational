@@ -1,18 +1,24 @@
 .Aim{
     display: flex;
     gap: 15%;
-    background-color: rgb(37, 108, 35); 
-    margin-top: 10%;
+    background-color: white; 
+    margin-top: 6%;
 
+}
+.Heading{
+    margin-top: 8%;
 }
 .Values{
     margin-left: 15%;
 
 }
 h1{
-    color: yellow;
+    color: rgb(16, 33,41);
     font-size: 50px;
     
+}
+b{
+    color: rgb(16, 33,41);
 }
 h2{
     font-size: 30px;
@@ -22,7 +28,7 @@ p{
 }
 
 body{
-    background-color:rgb(37, 108, 35) ;
+    background-color:white;
 }
 @media screen and (max-width:500px){
     .Aim{
