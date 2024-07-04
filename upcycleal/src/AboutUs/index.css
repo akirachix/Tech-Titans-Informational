@@ -1,0 +1,112 @@
+.mission{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+img{
+    width: 400px;
+    height: 350px;
+}
+.approach{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+
+
+}
+.background{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+
+}
+p{
+    font-size: large;
+    color: white;
+}
+body{
+    /* background: linear-gradient(to top, rgb(24,70,23) 0%,rgb(38,109,36)); */
+    background-color:rgb(24,70,23) ;
+
+}
+h2{
+  color: rgb(243, 228, 63);
+}
+h1{
+    color: rgb(243, 228, 63);
+   
+}
+
+@media screen and (min-width:280px) and (max-width:400px) {
+
+    p{
+        font-size: small;
+        color: white;
+    }
+    img{
+        width: 200px;
+        margin-left: 10%;
+    }
+    .approach{
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        flex-direction: column;
+    
+    
+    }
+    .background{
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        flex-direction: column;
+    
+    }
+    .mission{
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        flex-direction: column;
+    }
+    
+
+}
+@media screen and (min-width:401px) and (max-width:600px) {
+    p{
+        font-size: small;
+        color: white;
+    }
+    img{
+        width: 200px;
+        margin-left: 22%;
+    }
+    .approach{
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        flex-direction: column;
+    
+    
+    }
+    .background{
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        flex-direction: column;
+    
+    }
+    .mission{
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+}
+@media screen and (min-width:601px) and (max-width:920px) {
+    p{
+        font-size: large;
+        color: white;
+    }
+
+}
